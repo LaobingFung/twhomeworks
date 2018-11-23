@@ -1,6 +1,6 @@
 const NAME = 'hello';
 
 function convertUppercase(word) {
-  return cword.toUpperCase();
+  return word.toUpperCase();
 }
 document.write(convertUppercase(NAME));
