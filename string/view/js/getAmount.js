@@ -1,8 +1,6 @@
-const money = '￥20';
+const MONEY = '￥20';
 
 function getAmount(money) {
-  var amount;
-  amount = parseInt(money.substr(1));
-  return amount;
+  return parseInt(money.substr(1));
 }
-document.write(getAmount(money));
+document.write(getAmount(MONEY));

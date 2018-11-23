@@ -1,8 +1,6 @@
-const name = 'hello';
+const NAME = 'hello';
 
 function convertUppercase(word) {
-  var convertedWord = word.toUpperCase();
-  return convertedWord;
+  return cword.toUpperCase();
 }
-
-document.write(convertUppercase(Name));
+document.write(convertUppercase(NAME));
