@@ -26,3 +26,8 @@ function alphabetSort(message) {
   array.join();
   return array;
 }
+
+function countWords(message){
+  let words = message.split(" ");
+  return words.length;
+}
