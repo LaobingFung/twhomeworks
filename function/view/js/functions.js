@@ -16,3 +16,13 @@ function palindrome(message) {
   }
   return judgement;
 }
+
+function alphabetSort(message) {
+  let array = new Array(message.length);
+  for (let i = 0; i < message.length; i++) {
+    array[i] = message[i];
+  }
+  array.sort();
+  array.join();
+  return array;
+}
