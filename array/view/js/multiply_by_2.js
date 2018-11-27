@@ -1,4 +1,4 @@
-var a = [1, 2, 3, 4, 5];
+var array = [1, 2, 3, 4, 5];
 
 function multiplyBy2(array) {
   let arrayLength = array.length;
@@ -8,4 +8,4 @@ function multiplyBy2(array) {
   }
   return multipliedArray;
 }
-document.write(multiplyBy2(a));
+document.write(multiplyBy2(array));

@@ -1,4 +1,4 @@
-const A = [3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
+const ARRAY = [3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
 
 function getMostFrequentElement(array) {
   let elements = new Map();
@@ -16,4 +16,4 @@ function getMostFrequentElement(array) {
   }
   return mostFrequentElement;
 }
-document.write(getMostFrequentElement(A));
+document.write(getMostFrequentElement(ARRAY));

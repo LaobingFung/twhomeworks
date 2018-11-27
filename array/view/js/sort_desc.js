@@ -1,4 +1,4 @@
-var a = [5, 1, 8, 10, 4];
+var array = [5, 1, 8, 10, 4];
 
 function sortDesc(array) {
   return array.sort(compareNumbers).reverse();
@@ -7,4 +7,4 @@ function sortDesc(array) {
 function compareNumbers(a, b) {
   return a - b;
 }
-document.write(sortDesc(a));
+document.write(sortDesc(array));
