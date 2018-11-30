@@ -1,11 +1,15 @@
-function oddAndEvenFrom0To20() {
-  for (let i = 0; i <= 20; i++) {
-    if (i % 2 === 0) {
+function showOddAndEven(lowBorder, upBorder) {
+  for (let i = lowBorder; i <= upBorder; i++) {
+    if (isEven(i)) {
       console.log(i + "是偶数。");
     } else {
       console.log(i + "是奇数。");
     }
   }
+}
+
+function isEven(number) {
+    return (number%2 === 0);
 }
 
 function multiplicationTable() {
@@ -18,5 +22,5 @@ function multiplicationTable() {
     console.log(oneLineInTable);
   }
 }
-oddAndEvenFrom0To20();
+showOddAndEven(0, 20);
 multiplicationTable();
