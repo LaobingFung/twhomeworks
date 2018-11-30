@@ -17,6 +17,10 @@ function palindrome(message) {
   return judgement;
 }
 
+function palindromeByRevert(message) {
+  return message === revertString(message);
+}
+
 function alphabetSort(message) {
   let array = new Array(message.length);
   for (let i = 0; i < message.length; i++) {
@@ -27,7 +31,7 @@ function alphabetSort(message) {
   return array;
 }
 
-function countWords(message){
+function countWords(message) {
   let words = message.split(" ");
   return words.length;
 }
