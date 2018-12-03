@@ -3,11 +3,13 @@ var fruit = {
   pear: 20,
   peach: 10
 };
-function countFruits(obj) {
-    let total = 0;
-    for(let key in obj){
-        total += obj[key];
-        console.log(obj[key]);
+fruit.count = function() {
+  let total = 0;
+  for (let key in this) {
+    if (typeof(this[key]) === "number") {
+      total += this[key];
     }
-    return total;
+  }
+  return total;
 }
+console.log(fruit.count())
